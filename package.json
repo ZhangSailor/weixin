@@ -1,0 +1,15 @@
+{
+  "Name":"ChatOnline",
+  "version":"0.0.1",
+  "private":true,
+  "main":"app.js",
+  "dependencies":{
+    "express":"3.x",
+    "underscore":"latest",
+    "connect":"latest",
+    "static-favicon":"latest",
+    "koa":"latest",
+    "bower":"latest",
+    "body-parser":"latest"
+  }
+}
