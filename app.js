@@ -18,18 +18,18 @@ var http = require("http"),
   app.use(express.static(path.join(__dirname,'public')));
 });
 
-
 //var env = process.env.NODE_ENV || 'development';
 //if ('development' == env) {
   //console.log('development');
 //}
 
 routes(app);
+require('./controller/webotHandler')(app);
 
 var server = http.createServer(app);
 
 server.listen(8080,function(){
-  console.log("Express server listening on port 80");
+  console.log("Express server listening on port 8080");
 });
 
 

@@ -10,6 +10,7 @@
     "static-favicon":"latest",
     "koa":"latest",
     "bower":"latest",
-    "body-parser":"latest"
+    "body-parser":"latest",
+    "weixin-robot":"latest"
   }
 }
