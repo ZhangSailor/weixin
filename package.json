@@ -11,6 +11,7 @@
     "koa":"latest",
     "bower":"latest",
     "body-parser":"latest",
-    "weixin-robot":"latest"
+     "weixin-robot":"latest",
+     "mongoose":"latest"
   }
 }
