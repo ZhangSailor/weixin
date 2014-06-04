@@ -16,4 +16,11 @@ module.exports = function(app){
   
   webot.set('hi','你好呀你好呀');
   webot.set('dlwebs',[{'title':'大连聚优客微信建设平台','url':'http://www.dlwebs.com/index.html','picUrl':'http://www.dlwebs.com/images/f34.png','description':'description'}]);
+  
+  webot.set('*',{
+    pattern:/./,
+    handler:function(info){
+      return "您发送的<" + info.text +">已经收到，稍后推出关键字查询鬼故事！敬请期待哦！";
+    }
+  });
 };
